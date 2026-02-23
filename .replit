@@ -1,5 +1,5 @@
 language = "c"
-run = "gcc -o hello /home/runner/project2/src/hello.c"
+run = "gcc -o labrabora2-1 /home/runner/project2/src/main.c"
 
 [nix]
 channel = "stable-25_05"
