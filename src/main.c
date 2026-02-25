@@ -1,8 +1,14 @@
-/* hello.c */
 #include <stdio.h>
+#include <stdlib.h>
 
-void main (void)
+int is_leap_year(int year){
+  if((year%4==0 && year%100!=0) || year%400==0){
+    return 1;
+  }
+  return 0;
+}
+
+int main(int argc, char *argv[])
 {
-	printf ("Hello World\n");
-	printf ("Goodbye World\n");
+
 }
