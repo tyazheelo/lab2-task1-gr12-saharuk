@@ -8,6 +8,15 @@ int is_leap_year(int year){
   return 0;
 }
 
+int days_in_month(int month, int year)
+{
+  int days[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+  if(month == 2 && is_leap_year(year)){
+    return 29;
+  }
+  return days[month-1];
+}
+
 int main(int argc, char *argv[])
 {
 
