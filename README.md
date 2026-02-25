@@ -1,11 +1,11 @@
 # Overview
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+This is repository of the second labaratory.
 
 # Usage
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
+It is created for studying aim and is created by Sakharuk Karyna 12 group.
 
 # Building
 
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
+Done.
