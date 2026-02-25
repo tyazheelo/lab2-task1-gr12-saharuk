@@ -35,6 +35,27 @@ void previous_day(int *day, int *month, int *year)
     (*day)--;
   }    
 }
+
+void next_day(int *day, int *month, int *year)
+{
+  if(*day < days_in_month(*month, *year))
+  {
+    (*day)++;
+  }
+  else
+  {
+    if(*month == 12)
+    {
+      (*year)++;
+      *month = 1;
+    }
+    else
+    {
+      (*month)++;
+    }
+    *day = 1;
+  }
+}
 int main(int argc, char *argv[])
 {
 
