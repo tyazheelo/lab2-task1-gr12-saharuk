@@ -17,6 +17,24 @@ int days_in_month(int month, int year)
   return days[month-1];
 }
 
+void previous_day(int *day, int *month, int *year)
+{
+  if(*day == 1){
+    if(*month == 1){
+      (*year)--;
+      *month = 12;
+    }
+    else
+    {
+      (*month)--;
+    }
+    *n = days_in_month(*month, *year);
+  }
+  else
+  {
+    (*day)--;
+  }    
+}
 int main(int argc, char *argv[])
 {
 
